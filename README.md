@@ -53,6 +53,9 @@ POSTGRES_DB=meu_banco
 
 # URL de conexão (caso a aplicação use)
 DATABASE_URL=postgresql://meu_usuario:minha_senha@db:5432/meu_banco
+
+# Secret key do JWT
+SECRET_KEY=uma_chave_super_secreta
 ```
 
 ## Como Executar
