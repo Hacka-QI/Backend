@@ -35,6 +35,26 @@ fastapi_sqlmodel_backend/
 └── README.md
 ```
 
+## Configuração do arquivo `.env`
+
+Antes de iniciar os containers, é necessário criar um arquivo chamado `.env` na raiz do projeto.  
+Esse arquivo deve conter as variáveis de ambiente utilizadas pelo `docker-compose.yml`.
+
+### Exemplo de `.env`
+```
+# Usuário do banco de dados
+POSTGRES_USER=meu_usuario
+
+# Senha do banco de dados
+POSTGRES_PASSWORD=minha_senha
+
+# Nome do banco de dados
+POSTGRES_DB=meu_banco
+
+# URL de conexão (caso a aplicação use)
+DATABASE_URL=postgresql://meu_usuario:minha_senha@db:5432/meu_banco
+```
+
 ## Como Executar
 
 ### Opção 1: Com Docker Compose (Recomendado)

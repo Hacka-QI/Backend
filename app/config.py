@@ -14,12 +14,8 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = 30
 
     # API
-    api_v1_str: str = "/api/v1"
-    project_name: str = "FastAPI Lio Backend"
-
-    # Evolution
-    EVOLUTION_API_KEY: Optional[str] = None
-    EVOLUTION_API_URL: Optional[str] = None
+    api_v1_str: str = "/api"
+    project_name: str = "QItech hackathon Backend"
 
     # Debug
     DEBUG: bool = True
