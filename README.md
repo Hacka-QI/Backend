@@ -1,11 +1,11 @@
-# FastAPI + SQLModel + PostgreSQL Backend
+# QItech hackathon 2025
 
-Este é um projeto backend usando FastAPI com SQLModel (ORM moderno) e PostgreSQL.
+Este é um projeto backend usando FastAPI e PostgreSQL.
 
 ## Estrutura do Projeto
 
 ```
-fastapi_sqlmodel_backend/
+backend/
 ├── app/
 │   ├── __init__.py
 │   ├── main.py
